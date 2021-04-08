@@ -17,7 +17,7 @@ public with sharing class WeekFiveHomework {
     //When I tried to run this, it said Method does not exist or incorrect signature. Wondering if it's because of Integer
     
              List<Account> acctList = new List<Account>();
-                for (Integer i = 0; i <= numberOfAccounts; i++) {
+                for (Integer i = 0; i < numberOfAccounts; i++) {
                     Account a = new Account();
                     a.Name = 'Sample Account ' + i;
 					acctList.add(a);
